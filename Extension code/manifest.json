@@ -1,0 +1,17 @@
+{
+    "name": "Better Copy",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "A clipboard that uses link list to improve efficiency",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Better Copy"
+    },
+    
+    "permissions": ["contextMenus", "storage"],
+    
+    "background": {
+        "service_worker": "background.js"
+    }
+    
+}
