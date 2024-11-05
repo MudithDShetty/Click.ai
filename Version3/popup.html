@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="popup.css">
+  <title>Click.ai</title>
+</head>
+<body>
+  <h1 style="color: #007BFF; margin-left: 120px;">Click.ai</h1>
+  <div id="popup-container">
+    <h1 style="color: white;">Copied Items</h1>
+    
+    <input type="text" id="search-bar" placeholder="Search items..." />
+    <button id="clear-all">Clear All</button>
+    
+    <div id="item-list"></div>
+
+    <h2  style="color: white;">Chatgpt</h2>
+    <textarea id="custom-input" rows="4" placeholder="Type your message here..."></textarea>
+    <button id="send-btn">Send to ChatGPT</button>
+
+    <h2>Save Snippet or Screenshot</h2>
+    <button id="save-snippet">Save Selected Snippet</button>
+    <button id="take-screenshot">Take Screenshot</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
